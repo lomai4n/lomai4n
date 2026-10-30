@@ -2,11 +2,11 @@
 
 # 你好，我是 lomai4n 👋
 
-**把实际需求做成能用的工具。**
+**从 Web 平台到桌面与设备，把实际需求做成能用的工具。**
 
-Building practical tools for media workflows, macOS, and device integration.
+Building practical applications across web, desktop, media, and connected devices.
 
-Python · Swift · C++ · Vue · TypeScript
+Java · Python · JavaScript / TypeScript · Swift · C++
 
 [查看我的项目](https://github.com/lomai4n?tab=repositories) · [LomVideo](https://github.com/lomai4n/LomVideo) · [Brother Drop Print](https://github.com/lomai4n/brother-drop-print)
 
@@ -16,9 +16,11 @@ Python · Swift · C++ · Vue · TypeScript
 
 ## 关于我
 
-我围绕具体的使用场景开发软件：把重复的视频处理流程串起来，让文件拖一下就能打印，或为设备事件接入搭建清晰的接口。
+我围绕具体的使用场景开发软件：搭建业务管理平台、连接设备与数据、处理视频与视觉信息，也制作让日常操作更简单的桌面工具。
 
-目前的公开项目覆盖 **视频自动化、macOS 原生应用和设备接入**，涉及从交互界面、处理流程到底层协议的不同层面。我希望作品既能解决问题，也能让使用者看懂如何安装、如何使用，以及当前能力的边界。
+目前的项目实践覆盖 **全栈 Web 应用、物联网与设备集成、计算机视觉、视频自动化和原生应用**。从管理界面、后端服务到设备通信，我关注各个环节如何组成可使用、可维护的工作流。
+
+我希望作品既能解决问题，也能让使用者看懂如何安装、如何使用，以及当前能力的边界。
 
 ## 项目作品
 
@@ -52,14 +54,28 @@ Python · Swift · C++ · Vue · TypeScript
 
 [项目介绍](https://github.com/lomai4n/hik-device-bridge#readme) · [验证记录](https://github.com/lomai4n/hik-device-bridge/blob/main/docs/VALIDATION.md) · [反馈问题](https://github.com/lomai4n/hik-device-bridge/issues)
 
-## 项目中的技术实践
+## 技术与项目实践
 
-| 方向 | 涉及的技术与内容 |
-| --- | --- |
-| 视频与自动化 | Python、FFmpeg、语音转写、批量任务与媒体导出 |
-| Web 工作台 | Vue 3、TypeScript、Vite、工作流界面 |
-| 原生桌面应用 | Swift、CoreGraphics、拖放交互、打印队列 |
-| 设备与协议 | C++20、CMake、TCP、PJL / SNMP、事件处理 |
+| 方向 | 项目中用到的技术 | 实践内容 |
+| --- | --- | --- |
+| 后端与业务平台 | Java 17、Spring Boot、BladeX、MyBatis-Plus、Python / FastAPI | 业务接口、流程与状态管理、服务集成 |
+| Web 前端 | Vue 3、JavaScript / TypeScript、Vite、Element Plus、ECharts | 管理后台、工作台、数据展示与交互 |
+| 数据与消息 | PostgreSQL、MySQL、Redis、pgvector、MQTT、NATS | 数据持久化、缓存、向量检索与事件通信 |
+| 计算机视觉 | Python、OpenCV、MediaPipe、ONNX Runtime | 姿态检测、视觉推理与识别服务 |
+| 桌面与移动端 | Swift、CoreGraphics、Android / Java、uni-app、微信小程序 | 原生交互、文件处理与移动端界面 |
+| 设备与协议 | C++20、CMake、TCP、PJL / SNMP、BLE、USB | 设备接入、状态查询与通信协议 |
+| 视频与三维 | FFmpeg、React、Remotion、Three.js | 媒体处理、程序化视频与 Web 三维场景 |
+| 自动化工具 | Python / asyncio、AstrBot、Docker Compose | 消息机器人、定时任务与服务编排 |
+| 嵌入式原型 | ESP32、Arduino / C++、BLE、传感采集 | 固件、通信与采集原型，持续联调与验证 |
+
+### 其他项目方向
+
+除上面的公开仓库，我也在推进这些方向的项目：
+
+- **业务平台与物联网**：连接后台管理、移动端、设备事件和数据展示。
+- **视觉与多媒体**：姿态检测、识别服务、视频工作流与程序化动画。
+- **交互与三维**：用 Three.js 制作可交互的三维场景与空间预览。
+- **软硬件联调**：探索 ESP32 采集固件、Android 通信和 BLE / USB 链路；硬件原型仍需校准与实机验证。
 
 ## 开发关注点
 
@@ -70,8 +86,8 @@ Python · Swift · C++ · Vue · TypeScript
 
 ## 交流与合作
 
-欢迎交流视频工作流、macOS 工具、设备接入和日常自动化，也欢迎相关的 **开发机会、项目合作与开源贡献**。
+欢迎交流 **Java / Python 后端、Web 与原生应用、物联网与设备集成、计算机视觉和视频工具**，也欢迎相关的 **开发机会、项目合作与开源贡献**。
 
 想了解我的技术实践，可以从上面的项目、源码与实现记录开始；使用反馈和技术讨论，欢迎在对应仓库的 Issues 中交流。
 
-> I build tools around real needs. Open to technical discussions, development opportunities, and open-source collaboration.
+> I build applications around real needs, from web services to desktop tools and connected devices. Open to development opportunities and open-source collaboration.
